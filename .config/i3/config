@@ -1,0 +1,104 @@
+# set
+set $mod Mod4
+set $ws1 "1"
+set $ws2 "2"
+set $ws3 "3"
+set $ws4 "4"
+set $ws5 "5"
+set $ws6 "6"
+set $ws7 "7"
+set $ws8 "8"
+set $ws9 "9"
+set $ws10 "10"
+
+# color
+# class                 border  bground text    indicator child_border
+client.focused          #6272A4 #6272A4 #F8F8F2 #6272A4   #6272A4
+client.focused_inactive #44475A #44475A #F8F8F2 #44475A   #44475A
+client.unfocused        #282A36 #282A36 #BFBFBF #282A36   #282A36
+client.urgent           #44475A #FF5555 #F8F8F2 #FF5555   #FF5555
+client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
+client.background       #F8F8F2
+
+# The combination of xss-lock, nm-applet and pactl is a popular choice, so
+# they are included here as an example. Modify as you see fit.
+# xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
+# screen before suspend. Use loginctl lock-session to lock your screen.
+# NetworkManager is the most popular way to manage wireless networks on Linux,
+# and nm-applet is a desktop environment-independent system tray GUI for it.
+
+# execute
+exec --no-startup-id nm-applet
+exec --no-startup-id feh --bg-scale --randomize $HOME/.wallpaper
+exec --no-startup-id setxkbmap us -variant colemak
+# exec --no-startup-id flameshot
+exec --no-startup-id xss-lock --transfer-sleep-lock -- $HOME/.config/scripts/i3lock --nofork
+exec --no-startup-id dex --autostart --environment i3
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# bindsym - window
+bindsym $mod+f fullscreen toggle
+bindsym $mod+h focus left
+bindsym $mod+n focus down
+bindsym $mod+e focus up
+bindsym $mod+i focus right
+bindsym $mod+Shift+h move left
+bindsym $mod+Shift+n move down
+bindsym $mod+Shift+e move up
+bindsym $mod+Shift+i move right
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+bindsym Control+Shift+h resize shrink width 10 px or 10 ppt
+bindsym Control+Shift+n resize grow height 10 px or 10 ppt
+bindsym Control+Shift+e resize shrink height 10 px or 10 ppt
+bindsym Control+Shift+i resize grow width 10 px or 10 ppt
+
+# bindsym - apps
+bindsym $mod+Return exec --no-startup-id alacritty
+bindsym $mod+m exec --no-startup-id rofi -show combi
+bindsym $mod+Shift+m exec --no-startup-id $HOME/.config/scripts/i3lock
+bindsym $mod+z exec --no-startup-id flameshot gui
+bindsym $mod+Shift+z exec --no-startup-id flameshot full
+bindsym $mod+b exec --no-startup-id firefox
+
+# bindsym - workspace
+bindsym $mod+1 workspace number $ws1
+bindsym $mod+2 workspace number $ws2
+bindsym $mod+3 workspace number $ws3
+bindsym $mod+4 workspace number $ws4
+bindsym $mod+5 workspace number $ws5
+bindsym $mod+6 workspace number $ws6
+bindsym $mod+7 workspace number $ws7
+bindsym $mod+8 workspace number $ws8
+bindsym $mod+9 workspace number $ws9
+bindsym $mod+0 workspace number $ws10
+bindsym $mod+Shift+1 move container to workspace number $ws1
+bindsym $mod+Shift+2 move container to workspace number $ws2
+bindsym $mod+Shift+3 move container to workspace number $ws3
+bindsym $mod+Shift+4 move container to workspace number $ws4
+bindsym $mod+Shift+5 move container to workspace number $ws5
+bindsym $mod+Shift+6 move container to workspace number $ws6
+bindsym $mod+Shift+7 move container to workspace number $ws7
+bindsym $mod+Shift+8 move container to workspace number $ws8
+bindsym $mod+Shift+9 move container to workspace number $ws9
+bindsym $mod+Shift+0 move container to workspace number $ws10
+
+# bindsym - other
+bindsym $mod+w reload
+bindsym $mod+Shift+w restart
+bindsym $mod+q exec i3-msg exit
+bindsym $mod+Shift+q kill
+
+# windows
+for_window [class="Alacritty"] floating enable
+for_window [class="Lxappearance"] floating enable
+for_window [class="Thunar"] floating enable
+for_window [class="pavucontrol"] floating enable
+for_window [class="fcitx5-config-qt"] floating enable
+for_window [class="scrcpy"] floating enable
+
+# other 
+tiling_drag modifier titlebar
+font pango:FiraCode Nerd Font 8
+floating_modifier $mod
+hide_edge_borders smart_no_gaps

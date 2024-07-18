@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/debian/Downloads/vimrc" added="2024-07-17T08:18:53.032659Z" modified="2024-07-17T08:18:53.032664Z" visited="2024-07-17T08:18:53.032660Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-07-17T08:18:53.032662Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Downloads/alacritty-master.zip" added="2024-07-17T08:28:51.556342Z" modified="2024-07-17T08:28:51.556358Z" visited="2024-07-17T08:28:51.556346Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox-esr %u&apos;" modified="2024-07-17T08:28:51.556351Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Downloads/i3lock-color-main.zip" added="2024-07-17T09:56:02.171467Z" modified="2024-07-17T09:56:02.171478Z" visited="2024-07-17T09:56:02.171472Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/zip"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T09:56:02.171475Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="recent:///" added="2024-07-17T10:53:02.469667Z" modified="2024-07-17T10:56:57.697255Z" visited="2024-07-17T10:53:02.469669Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2024-07-17T10:56:57.697251Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="network:///" added="2024-07-17T10:53:04.325635Z" modified="2024-07-17T10:55:54.607814Z" visited="2024-07-17T10:53:04.325636Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2024-07-17T10:55:54.607811Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Desktop" added="2024-07-17T10:56:51.801592Z" modified="2024-07-17T10:56:51.801596Z" visited="2024-07-17T10:56:51.801592Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2024-07-17T10:56:51.801594Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="trash:///" added="2024-07-17T10:56:58.342195Z" modified="2024-07-17T10:56:58.342199Z" visited="2024-07-17T10:56:58.342196Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2024-07-17T10:56:58.342197Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian" added="2024-07-17T10:57:01.554432Z" modified="2024-07-17T10:57:01.554435Z" visited="2024-07-17T10:57:01.554432Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2024-07-17T10:57:01.554433Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="computer:///" added="2024-07-17T10:57:02.056423Z" modified="2024-07-17T10:57:02.056433Z" visited="2024-07-17T10:57:02.056425Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Thunar" exec="&apos;Thunar %u&apos;" modified="2024-07-17T10:57:02.056428Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screenshot_of_a_video_game.jpg" added="2024-07-17T10:59:43.962763Z" modified="2024-07-17T10:59:44.343256Z" visited="2024-07-17T10:59:43.962766Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T10:59:44.343252Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screenshot_of_a_computer_02.jpg" added="2024-07-17T10:59:49.627282Z" modified="2024-07-17T10:59:49.970784Z" visited="2024-07-17T10:59:49.627285Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T10:59:49.970778Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_black_background_with_white_text.jpg" added="2024-07-17T10:59:53.388390Z" modified="2024-07-17T10:59:53.729551Z" visited="2024-07-17T10:59:53.388395Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T10:59:53.729540Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screenshot_of_a_video_game_01.jpg" added="2024-07-17T10:59:57.685396Z" modified="2024-07-17T10:59:58.169078Z" visited="2024-07-17T10:59:57.685399Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T10:59:58.169074Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_white_and_black_rectangle_with_x_marks.jpg" added="2024-07-17T11:00:02.428151Z" modified="2024-07-17T11:00:02.898222Z" visited="2024-07-17T11:00:02.428154Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:00:02.898214Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screen_shot_of_a_computer.jpg" added="2024-07-17T11:00:17.844703Z" modified="2024-07-17T11:00:18.158271Z" visited="2024-07-17T11:00:17.844705Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:00:18.158267Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screen_shot_of_a_computer_01.jpg" added="2024-07-17T11:00:23.002056Z" modified="2024-07-17T11:00:23.325747Z" visited="2024-07-17T11:00:23.002059Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:00:23.325740Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screenshot_of_a_computer.jpg" added="2024-07-17T11:00:27.636130Z" modified="2024-07-17T11:00:28.114940Z" visited="2024-07-17T11:00:27.636132Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:00:28.114934Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_screenshot_of_a_computer_01.jpg" added="2024-07-17T11:00:32.481724Z" modified="2024-07-17T11:00:32.957705Z" visited="2024-07-17T11:00:32.481728Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:00:32.957701Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/a_group_of_white_symbols.jpg" added="2024-07-17T11:00:39.832472Z" modified="2024-07-17T11:00:40.220869Z" visited="2024-07-17T11:00:39.832474Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:00:40.220863Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Pictures/dracula.png" added="2024-07-17T11:46:18.467862Z" modified="2024-07-17T11:46:18.813031Z" visited="2024-07-17T11:46:18.467866Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T11:46:18.813028Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Downloads/virtualbox-7.0_7.0.18-162988~Debian~bookworm_amd64.deb" added="2024-07-17T12:24:59.723546Z" modified="2024-07-17T12:24:59.723560Z" visited="2024-07-17T12:24:59.723548Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T12:24:59.723553Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/debian/Downloads/quickgui-1.2.10+1-linux.deb" added="2024-07-17T12:35:35.792337Z" modified="2024-07-17T12:35:35.792389Z" visited="2024-07-17T12:35:35.792342Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.debian.binary-package"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox-esr %u&apos;" modified="2024-07-17T12:35:35.792368Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

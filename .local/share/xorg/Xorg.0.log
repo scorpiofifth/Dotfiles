@@ -1,0 +1,406 @@
+[   557.469] 
+X.Org X Server 1.21.1.7
+X Protocol Version 11, Revision 0
+[   557.476] Current Operating System: Linux ChromeBox 6.1.0-23-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.99-1 (2024-07-15) x86_64
+[   557.476] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-6.1.0-23-amd64 root=UUID=96e1510a-3bdb-4afc-a4b9-0150c6234a95 ro quiet
+[   557.479] xorg-server 2:21.1.7-3+deb12u7 (https://www.debian.org/support) 
+[   557.480] Current version of pixman: 0.42.2
+[   557.482] 	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+[   557.482] Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+[   557.484] (==) Log file: "/home/debian/.local/share/xorg/Xorg.0.log", Time: Wed Jul 17 03:56:28 2024
+[   557.485] (==) Using system config directory "/usr/share/X11/xorg.conf.d"
+[   557.485] (==) No Layout section.  Using the first Screen section.
+[   557.485] (==) No screen section available. Using defaults.
+[   557.485] (**) |-->Screen "Default Screen Section" (0)
+[   557.485] (**) |   |-->Monitor "<default monitor>"
+[   557.485] (==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+[   557.485] (==) Automatically adding devices
+[   557.485] (==) Automatically enabling devices
+[   557.485] (==) Automatically adding GPU devices
+[   557.485] (==) Automatically binding GPU devices
+[   557.485] (==) Max clients allowed: 256, resource mask: 0x1fffff
+[   557.485] (WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+[   557.485] 	Entry deleted from font path.
+[   557.485] (==) FontPath set to:
+	/usr/share/fonts/X11/misc,
+	/usr/share/fonts/X11/100dpi/:unscaled,
+	/usr/share/fonts/X11/75dpi/:unscaled,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	/usr/share/fonts/X11/75dpi,
+	built-ins
+[   557.485] (==) ModulePath set to "/usr/lib/xorg/modules"
+[   557.485] (II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+[   557.485] (II) Loader magic: 0x557d86412f00
+[   557.485] (II) Module ABI versions:
+[   557.485] 	X.Org ANSI C Emulation: 0.4
+[   557.485] 	X.Org Video Driver: 25.2
+[   557.486] 	X.Org XInput driver : 24.4
+[   557.486] 	X.Org Server Extension : 10.0
+[   557.486] (++) using VT number 1
+
+[   557.487] (II) systemd-logind: took control of session /org/freedesktop/login1/session/_31
+[   557.488] (II) xfree86: Adding drm device (/dev/dri/card0)
+[   557.488] (II) Platform probe for /sys/devices/pci0000:00/0000:00:02.0/drm/card0
+[   557.489] (II) systemd-logind: got fd for /dev/dri/card0 226:0 fd 13 paused 0
+[   557.492] (--) PCI:*(0@0:2:0) 8086:5917:8086:2212 rev 7, Mem @ 0x90000000/16777216, 0x80000000/268435456, I/O @ 0x00001000/64, BIOS @ 0x????????/131072
+[   557.492] (II) LoadModule: "glx"
+[   557.492] (II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+[   557.493] (II) Module glx: vendor="X.Org Foundation"
+[   557.493] 	compiled for 1.21.1.7, module version = 1.0.0
+[   557.493] 	ABI class: X.Org Server Extension, version 10.0
+[   557.493] (==) Matched modesetting as autoconfigured driver 0
+[   557.493] (==) Matched fbdev as autoconfigured driver 1
+[   557.493] (==) Matched vesa as autoconfigured driver 2
+[   557.493] (==) Assigned the driver to the xf86ConfigLayout
+[   557.493] (II) LoadModule: "modesetting"
+[   557.493] (II) Loading /usr/lib/xorg/modules/drivers/modesetting_drv.so
+[   557.493] (II) Module modesetting: vendor="X.Org Foundation"
+[   557.493] 	compiled for 1.21.1.7, module version = 1.21.1
+[   557.493] 	Module class: X.Org Video Driver
+[   557.493] 	ABI class: X.Org Video Driver, version 25.2
+[   557.493] (II) LoadModule: "fbdev"
+[   557.493] (II) Loading /usr/lib/xorg/modules/drivers/fbdev_drv.so
+[   557.493] (II) Module fbdev: vendor="X.Org Foundation"
+[   557.493] 	compiled for 1.21.1.3, module version = 0.5.0
+[   557.493] 	Module class: X.Org Video Driver
+[   557.493] 	ABI class: X.Org Video Driver, version 25.2
+[   557.493] (II) LoadModule: "vesa"
+[   557.494] (II) Loading /usr/lib/xorg/modules/drivers/vesa_drv.so
+[   557.494] (II) Module vesa: vendor="X.Org Foundation"
+[   557.494] 	compiled for 1.21.1.3, module version = 2.5.0
+[   557.494] 	Module class: X.Org Video Driver
+[   557.494] 	ABI class: X.Org Video Driver, version 25.2
+[   557.494] (II) modesetting: Driver for Modesetting Kernel Drivers: kms
+[   557.494] (II) FBDEV: driver for framebuffer: fbdev
+[   557.494] (II) VESA: driver for VESA chipsets: vesa
+[   557.494] xf86EnableIO: failed to enable I/O ports 0000-03ff (Operation not permitted)
+[   557.494] (II) modeset(0): using drv /dev/dri/card0
+[   557.494] (WW) Falling back to old probe method for fbdev
+[   557.494] (II) Loading sub module "fbdevhw"
+[   557.494] (II) LoadModule: "fbdevhw"
+[   557.494] (II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+[   557.494] (II) Module fbdevhw: vendor="X.Org Foundation"
+[   557.494] 	compiled for 1.21.1.7, module version = 0.0.2
+[   557.494] 	ABI class: X.Org Video Driver, version 25.2
+[   557.494] (WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+[   557.494] (II) modeset(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 24/32
+[   557.494] (==) modeset(0): Depth 24, (==) framebuffer bpp 32
+[   557.494] (==) modeset(0): RGB weight 888
+[   557.494] (==) modeset(0): Default visual is TrueColor
+[   557.494] (II) Loading sub module "glamoregl"
+[   557.494] (II) LoadModule: "glamoregl"
+[   557.494] (II) Loading /usr/lib/xorg/modules/libglamoregl.so
+[   557.497] (II) Module glamoregl: vendor="X.Org Foundation"
+[   557.497] 	compiled for 1.21.1.7, module version = 1.0.1
+[   557.497] 	ABI class: X.Org ANSI C Emulation, version 0.4
+[   557.540] (II) modeset(0): glamor X acceleration enabled on Mesa Intel(R) UHD Graphics 620 (KBL GT2)
+[   557.540] (II) modeset(0): glamor initialized
+[   557.540] (==) modeset(0): VariableRefresh: disabled
+[   557.540] (==) modeset(0): AsyncFlipSecondaries: disabled
+[   557.567] (II) modeset(0): Output HDMI-1 has no monitor section
+[   557.567] (II) modeset(0): Output DP-1 has no monitor section
+[   557.764] (II) modeset(0): Output HDMI-2 has no monitor section
+[   557.764] (II) modeset(0): Output DP-2 has no monitor section
+[   557.876] (II) modeset(0): Output HDMI-3 has no monitor section
+[   557.905] (II) modeset(0): EDID for output HDMI-1
+[   557.905] (II) modeset(0): Manufacturer: SGT  Model: bc32  Serial#: 16843009
+[   557.905] (II) modeset(0): Year: 2019  Week: 40
+[   557.905] (II) modeset(0): EDID Version: 1.3
+[   557.905] (II) modeset(0): Digital Display Input
+[   557.905] (II) modeset(0): Max Image Size [cm]: horiz.: 60  vert.: 34
+[   557.905] (II) modeset(0): Gamma: 2.20
+[   557.905] (II) modeset(0): DPMS capabilities: Off
+[   557.905] (II) modeset(0): Supported color encodings: RGB 4:4:4 YCrCb 4:4:4 
+[   557.905] (II) modeset(0): Default color space is primary color space
+[   557.905] (II) modeset(0): First detailed timing is preferred mode
+[   557.905] (II) modeset(0): redX: 0.712 redY: 0.347   greenX: 0.173 greenY: 0.765
+[   557.905] (II) modeset(0): blueX: 0.100 blueY: 0.020   whiteX: 0.312 whiteY: 0.329
+[   557.905] (II) modeset(0): Supported established timings:
+[   557.905] (II) modeset(0): 640x480@60Hz
+[   557.905] (II) modeset(0): 800x600@60Hz
+[   557.905] (II) modeset(0): 1024x768@60Hz
+[   557.905] (II) modeset(0): Manufacturer's mask: 0
+[   557.905] (II) modeset(0): Supported standard timings:
+[   557.905] (II) modeset(0): #0: hsize: 1920  vsize 1080  refresh: 60  vid: 49361
+[   557.905] (II) modeset(0): Supported detailed timing:
+[   557.905] (II) modeset(0): clock: 148.5 MHz   Image Size:  597 x 336 mm
+[   557.905] (II) modeset(0): h_active: 1920  h_sync: 2008  h_sync_end 2052 h_blank_end 2200 h_border: 0
+[   557.906] (II) modeset(0): v_active: 1080  v_sync: 1082  v_sync_end 1087 v_blanking: 1125 v_border: 0
+[   557.906] (II) modeset(0): Monitor name: FHD
+[   557.906] (II) modeset(0): Serial No: demoset-1
+[   557.906] (II) modeset(0): Ranges: V min: 50 V max: 145 Hz, H min: 30 H max: 180 kHz, PixClock max 365 MHz
+[   557.906] (II) modeset(0): Supported detailed timing:
+[   557.906] (II) modeset(0): clock: 337.7 MHz   Image Size:  597 x 336 mm
+[   557.906] (II) modeset(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2050 h_border: 0
+[   557.906] (II) modeset(0): v_active: 1080  v_sync: 1083  v_sync_end 1093 v_blanking: 1144 v_border: 0
+[   557.906] (II) modeset(0): Supported detailed timing:
+[   557.906] (II) modeset(0): clock: 285.5 MHz   Image Size:  597 x 336 mm
+[   557.906] (II) modeset(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2080 h_border: 0
+[   557.906] (II) modeset(0): v_active: 1080  v_sync: 1082  v_sync_end 1087 v_blanking: 1144 v_border: 0
+[   557.906] (II) modeset(0): Supported detailed timing:
+[   557.906] (II) modeset(0): clock: 235.7 MHz   Image Size:  598 x 336 mm
+[   557.906] (II) modeset(0): h_active: 1920  h_sync: 1968  h_sync_end 2000 h_blank_end 2080 h_border: 0
+[   557.906] (II) modeset(0): v_active: 1080  v_sync: 1082  v_sync_end 1087 v_blanking: 1133 v_border: 0
+[   557.906] (II) modeset(0): Number of EDID sections to follow: 1
+[   557.906] (II) modeset(0): EDID (in hex):
+[   557.906] (II) modeset(0): 	00ffffffffffff004cf432bc01010101
+[   557.906] (II) modeset(0): 	281d0103803c22782e7781b6582cc319
+[   557.906] (II) modeset(0): 	055054210800d1c00101010101010101
+[   557.906] (II) modeset(0): 	010101010101023a801871382d40582c
+[   557.906] (II) modeset(0): 	250055502100001e000000fc00464844
+[   557.906] (II) modeset(0): 	0a202020202020202020000000ff0064
+[   557.906] (II) modeset(0): 	656d6f7365742d310a203020000000fd
+[   557.906] (II) modeset(0): 	0032911eb424000a20202020202001d0
+[   557.906] (II) modeset(0): 	020341f24d9001020304131f2021223c
+[   557.906] (II) modeset(0): 	3d3e230907078301000067030c001000
+[   557.906] (II) modeset(0): 	1848e200d5e305c000e606050169694f
+[   557.906] (II) modeset(0): 	681a000001013290e667d85dc4014480
+[   557.906] (II) modeset(0): 	01eb8380827038404030203a00555021
+[   557.906] (II) modeset(0): 	00001e8a6f80a0703840403020250055
+[   557.906] (II) modeset(0): 	502100001e0e5c80a070383540302025
+[   557.906] (II) modeset(0): 	0056502100001e00000000000000008c
+[   557.907] (--) modeset(0): HDMI max TMDS frequency 360000KHz
+[   557.907] (II) modeset(0): Printing probed modes for output HDMI-1
+[   557.907] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1082 1087 1125 +hsync +vsync (67.5 kHz eP)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x120.0  285.54  1920 1968 2000 2080  1080 1082 1087 1144 +hsync +vsync (137.3 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x100.0  235.66  1920 1968 2000 2080  1080 1082 1087 1133 +hsync +vsync (113.3 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x60.0  148.50  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x50.0  148.50  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (56.2 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x59.9  148.35  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (67.4 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x30.0   74.25  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (33.8 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x25.0   74.25  1920 2448 2492 2640  1080 1084 1089 1125 +hsync +vsync (28.1 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x24.0   74.25  1920 2558 2602 2750  1080 1084 1089 1125 +hsync +vsync (27.0 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x30.0   74.18  1920 2008 2052 2200  1080 1084 1089 1125 +hsync +vsync (33.7 kHz e)
+[   557.907] (II) modeset(0): Modeline "1920x1080"x24.0   74.18  1920 2558 2602 2750  1080 1084 1089 1125 +hsync +vsync (27.0 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x60.0   74.25  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x50.0   74.25  1280 1720 1760 1980  720 725 730 750 +hsync +vsync (37.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x30.0   74.25  1280 3040 3080 3300  720 725 730 750 +hsync +vsync (22.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x25.0   74.25  1280 3700 3740 3960  720 725 730 750 +hsync +vsync (18.8 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x59.9   74.18  1280 1390 1430 1650  720 725 730 750 +hsync +vsync (45.0 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x30.0   74.18  1280 3040 3080 3300  720 725 730 750 +hsync +vsync (22.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x24.0   59.40  1280 3040 3080 3300  720 725 730 750 +hsync +vsync (18.0 kHz e)
+[   557.907] (II) modeset(0): Modeline "1280x720"x24.0   59.34  1280 3040 3080 3300  720 725 730 750 +hsync +vsync (18.0 kHz e)
+[   557.907] (II) modeset(0): Modeline "1024x768"x60.0   65.00  1024 1048 1184 1344  768 771 777 806 -hsync -vsync (48.4 kHz e)
+[   557.907] (II) modeset(0): Modeline "800x600"x60.3   40.00  800 840 968 1056  600 601 605 628 +hsync +vsync (37.9 kHz e)
+[   557.907] (II) modeset(0): Modeline "720x480"x60.0   27.03  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "720x480"x59.9   27.00  720 736 798 858  480 489 495 525 -hsync -vsync (31.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "640x480"x60.0   25.20  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   557.907] (II) modeset(0): Modeline "640x480"x59.9   25.18  640 656 752 800  480 490 492 525 -hsync -vsync (31.5 kHz e)
+[   557.907] (II) modeset(0): EDID for output DP-1
+[   558.104] (II) modeset(0): EDID for output HDMI-2
+[   558.104] (II) modeset(0): EDID for output DP-2
+[   558.213] (II) modeset(0): EDID for output HDMI-3
+[   558.213] (II) modeset(0): Output HDMI-1 connected
+[   558.213] (II) modeset(0): Output DP-1 disconnected
+[   558.213] (II) modeset(0): Output HDMI-2 disconnected
+[   558.213] (II) modeset(0): Output DP-2 disconnected
+[   558.213] (II) modeset(0): Output HDMI-3 disconnected
+[   558.213] (II) modeset(0): Using exact sizes for initial modes
+[   558.213] (II) modeset(0): Output HDMI-1 using initial mode 1920x1080 +0+0
+[   558.214] (==) modeset(0): Using gamma correction (1.0, 1.0, 1.0)
+[   558.214] (==) modeset(0): DPI set to (96, 96)
+[   558.214] (II) Loading sub module "fb"
+[   558.214] (II) LoadModule: "fb"
+[   558.214] (II) Module "fb" already built-in
+[   558.214] (II) UnloadModule: "fbdev"
+[   558.214] (II) Unloading fbdev
+[   558.214] (II) UnloadSubModule: "fbdevhw"
+[   558.214] (II) Unloading fbdevhw
+[   558.214] (II) UnloadModule: "vesa"
+[   558.214] (II) Unloading vesa
+[   558.311] (==) modeset(0): Backing store enabled
+[   558.311] (==) modeset(0): Silken mouse enabled
+[   558.454] (II) modeset(0): Initializing kms color map for depth 24, 8 bpc.
+[   558.455] (==) modeset(0): DPMS enabled
+[   558.455] (II) modeset(0): [DRI2] Setup complete
+[   558.455] (II) modeset(0): [DRI2]   DRI driver: iris
+[   558.455] (II) modeset(0): [DRI2]   VDPAU driver: va_gl
+[   558.455] (II) Initializing extension Generic Event Extension
+[   558.455] (II) Initializing extension SHAPE
+[   558.456] (II) Initializing extension MIT-SHM
+[   558.456] (II) Initializing extension XInputExtension
+[   558.456] (II) Initializing extension XTEST
+[   558.457] (II) Initializing extension BIG-REQUESTS
+[   558.457] (II) Initializing extension SYNC
+[   558.457] (II) Initializing extension XKEYBOARD
+[   558.458] (II) Initializing extension XC-MISC
+[   558.458] (II) Initializing extension SECURITY
+[   558.458] (II) Initializing extension XFIXES
+[   558.459] (II) Initializing extension RENDER
+[   558.459] (II) Initializing extension RANDR
+[   558.460] (II) Initializing extension COMPOSITE
+[   558.460] (II) Initializing extension DAMAGE
+[   558.460] (II) Initializing extension MIT-SCREEN-SAVER
+[   558.461] (II) Initializing extension DOUBLE-BUFFER
+[   558.461] (II) Initializing extension RECORD
+[   558.461] (II) Initializing extension DPMS
+[   558.462] (II) Initializing extension Present
+[   558.462] (II) Initializing extension DRI3
+[   558.462] (II) Initializing extension X-Resource
+[   558.463] (II) Initializing extension XVideo
+[   558.463] (II) Initializing extension XVideo-MotionCompensation
+[   558.463] (II) Initializing extension SELinux
+[   558.463] (II) SELinux: Disabled on system
+[   558.463] (II) Initializing extension GLX
+[   558.484] (II) AIGLX: Loaded and initialized iris
+[   558.484] (II) GLX: Initialized DRI2 GL provider for screen 0
+[   558.484] (II) Initializing extension XFree86-VidModeExtension
+[   558.485] (II) Initializing extension XFree86-DGA
+[   558.485] (II) Initializing extension XFree86-DRI
+[   558.485] (II) Initializing extension DRI2
+[   558.486] (II) modeset(0): Damage tracking initialized
+[   558.486] (II) modeset(0): Setting screen physical size to 508 x 285
+[   558.547] (II) config/udev: Adding input device Power Button (/dev/input/event6)
+[   558.547] (**) Power Button: Applying InputClass "libinput keyboard catchall"
+[   558.547] (II) LoadModule: "libinput"
+[   558.547] (II) Loading /usr/lib/xorg/modules/input/libinput_drv.so
+[   558.548] (II) Module libinput: vendor="X.Org Foundation"
+[   558.548] 	compiled for 1.21.1.3, module version = 1.2.1
+[   558.548] 	Module class: X.Org XInput Driver
+[   558.548] 	ABI class: X.Org XInput driver, version 24.4
+[   558.548] (II) Using input driver 'libinput' for 'Power Button'
+[   558.549] (II) systemd-logind: got fd for /dev/input/event6 13:70 fd 27 paused 0
+[   558.549] (**) Power Button: always reports core events
+[   558.549] (**) Option "Device" "/dev/input/event6"
+[   558.551] (II) event6  - Power Button: is tagged by udev as: Keyboard
+[   558.551] (II) event6  - Power Button: device is a keyboard
+[   558.551] (II) event6  - Power Button: device removed
+[   558.551] (**) Option "config_info" "udev:/sys/devices/LNXSYSTM:00/LNXPWRBN:00/input/input8/event6"
+[   558.551] (II) XINPUT: Adding extended input device "Power Button" (type: KEYBOARD, id 6)
+[   558.551] (II) event6  - Power Button: is tagged by udev as: Keyboard
+[   558.552] (II) event6  - Power Button: device is a keyboard
+[   558.553] (II) config/udev: Adding input device Compx 2.4G Wireless Receiver (/dev/input/event0)
+[   558.553] (**) Compx 2.4G Wireless Receiver: Applying InputClass "libinput keyboard catchall"
+[   558.553] (II) Using input driver 'libinput' for 'Compx 2.4G Wireless Receiver'
+[   558.554] (II) systemd-logind: got fd for /dev/input/event0 13:64 fd 30 paused 0
+[   558.554] (**) Compx 2.4G Wireless Receiver: always reports core events
+[   558.554] (**) Option "Device" "/dev/input/event0"
+[   558.555] (II) event0  - Compx 2.4G Wireless Receiver: is tagged by udev as: Keyboard
+[   558.555] (II) event0  - Compx 2.4G Wireless Receiver: device is a keyboard
+[   558.555] (II) event0  - Compx 2.4G Wireless Receiver: device removed
+[   558.555] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.0/0003:25A7:FA70.0001/input/input0/event0"
+[   558.555] (II) XINPUT: Adding extended input device "Compx 2.4G Wireless Receiver" (type: KEYBOARD, id 7)
+[   558.556] (II) event0  - Compx 2.4G Wireless Receiver: is tagged by udev as: Keyboard
+[   558.556] (II) event0  - Compx 2.4G Wireless Receiver: device is a keyboard
+[   558.557] (II) config/udev: Adding input device Compx 2.4G Wireless Receiver Mouse (/dev/input/event1)
+[   558.557] (**) Compx 2.4G Wireless Receiver Mouse: Applying InputClass "libinput pointer catchall"
+[   558.557] (II) Using input driver 'libinput' for 'Compx 2.4G Wireless Receiver Mouse'
+[   558.558] (II) systemd-logind: got fd for /dev/input/event1 13:65 fd 31 paused 0
+[   558.558] (**) Compx 2.4G Wireless Receiver Mouse: always reports core events
+[   558.558] (**) Option "Device" "/dev/input/event1"
+[   558.559] (II) event1  - Compx 2.4G Wireless Receiver Mouse: is tagged by udev as: Mouse
+[   558.559] (II) event1  - Compx 2.4G Wireless Receiver Mouse: device is a pointer
+[   558.559] (II) event1  - Compx 2.4G Wireless Receiver Mouse: device removed
+[   558.559] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:25A7:FA70.0002/input/input1/event1"
+[   558.559] (II) XINPUT: Adding extended input device "Compx 2.4G Wireless Receiver Mouse" (type: MOUSE, id 8)
+[   558.559] (**) Option "AccelerationScheme" "none"
+[   558.559] (**) Compx 2.4G Wireless Receiver Mouse: (accel) selected scheme none/0
+[   558.559] (**) Compx 2.4G Wireless Receiver Mouse: (accel) acceleration factor: 2.000
+[   558.559] (**) Compx 2.4G Wireless Receiver Mouse: (accel) acceleration threshold: 4
+[   558.561] (II) event1  - Compx 2.4G Wireless Receiver Mouse: is tagged by udev as: Mouse
+[   558.561] (II) event1  - Compx 2.4G Wireless Receiver Mouse: device is a pointer
+[   558.562] (II) config/udev: Adding input device Compx 2.4G Wireless Receiver Mouse (/dev/input/mouse0)
+[   558.562] (II) No input driver specified, ignoring this device.
+[   558.562] (II) This device may have been added with another device file.
+[   558.562] (II) config/udev: Adding input device Compx 2.4G Wireless Receiver (/dev/input/event2)
+[   558.562] (II) No input driver specified, ignoring this device.
+[   558.562] (II) This device may have been added with another device file.
+[   558.563] (II) config/udev: Adding input device Compx 2.4G Wireless Receiver Keyboard (/dev/input/event3)
+[   558.563] (**) Compx 2.4G Wireless Receiver Keyboard: Applying InputClass "libinput keyboard catchall"
+[   558.563] (II) Using input driver 'libinput' for 'Compx 2.4G Wireless Receiver Keyboard'
+[   558.564] (II) systemd-logind: got fd for /dev/input/event3 13:67 fd 32 paused 0
+[   558.564] (**) Compx 2.4G Wireless Receiver Keyboard: always reports core events
+[   558.564] (**) Option "Device" "/dev/input/event3"
+[   558.565] (II) event3  - Compx 2.4G Wireless Receiver Keyboard: is tagged by udev as: Keyboard
+[   558.565] (II) event3  - Compx 2.4G Wireless Receiver Keyboard: device is a keyboard
+[   558.565] (II) event3  - Compx 2.4G Wireless Receiver Keyboard: device removed
+[   558.565] (II) libinput: Compx 2.4G Wireless Receiver Keyboard: needs a virtual subdevice
+[   558.565] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:25A7:FA70.0002/input/input3/event3"
+[   558.565] (II) XINPUT: Adding extended input device "Compx 2.4G Wireless Receiver Keyboard" (type: MOUSE, id 9)
+[   558.565] (**) Option "AccelerationScheme" "none"
+[   558.565] (**) Compx 2.4G Wireless Receiver Keyboard: (accel) selected scheme none/0
+[   558.565] (**) Compx 2.4G Wireless Receiver Keyboard: (accel) acceleration factor: 2.000
+[   558.565] (**) Compx 2.4G Wireless Receiver Keyboard: (accel) acceleration threshold: 4
+[   558.566] (II) event3  - Compx 2.4G Wireless Receiver Keyboard: is tagged by udev as: Keyboard
+[   558.566] (II) event3  - Compx 2.4G Wireless Receiver Keyboard: device is a keyboard
+[   558.567] (II) config/udev: Adding input device Logitech B330/M330/M3 (/dev/input/event4)
+[   558.567] (**) Logitech B330/M330/M3: Applying InputClass "libinput pointer catchall"
+[   558.567] (**) Logitech B330/M330/M3: Applying InputClass "libinput keyboard catchall"
+[   558.567] (II) Using input driver 'libinput' for 'Logitech B330/M330/M3'
+[   558.568] (II) systemd-logind: got fd for /dev/input/event4 13:68 fd 33 paused 0
+[   558.568] (**) Logitech B330/M330/M3: always reports core events
+[   558.568] (**) Option "Device" "/dev/input/event4"
+[   558.569] (II) event4  - Logitech B330/M330/M3: is tagged by udev as: Keyboard Mouse
+[   558.569] (II) event4  - Logitech B330/M330/M3: device is a pointer
+[   558.569] (II) event4  - Logitech B330/M330/M3: device is a keyboard
+[   558.569] (II) event4  - Logitech B330/M330/M3: device removed
+[   558.570] (II) libinput: Logitech B330/M330/M3: needs a virtual subdevice
+[   558.570] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:046D:C52F.0004/0003:046D:4057.0005/input/input15/event4"
+[   558.570] (II) XINPUT: Adding extended input device "Logitech B330/M330/M3" (type: MOUSE, id 10)
+[   558.570] (**) Option "AccelerationScheme" "none"
+[   558.570] (**) Logitech B330/M330/M3: (accel) selected scheme none/0
+[   558.570] (**) Logitech B330/M330/M3: (accel) acceleration factor: 2.000
+[   558.570] (**) Logitech B330/M330/M3: (accel) acceleration threshold: 4
+[   558.571] (II) event4  - Logitech B330/M330/M3: is tagged by udev as: Keyboard Mouse
+[   558.571] (II) event4  - Logitech B330/M330/M3: device is a pointer
+[   558.571] (II) event4  - Logitech B330/M330/M3: device is a keyboard
+[   558.572] (II) config/udev: Adding input device Logitech B330/M330/M3 (/dev/input/mouse1)
+[   558.572] (II) No input driver specified, ignoring this device.
+[   558.572] (II) This device may have been added with another device file.
+[   558.572] (II) config/udev: Adding input device PC Speaker (/dev/input/event7)
+[   558.572] (II) No input driver specified, ignoring this device.
+[   558.572] (II) This device may have been added with another device file.
+[   558.586] (**) Compx 2.4G Wireless Receiver Keyboard: Applying InputClass "libinput keyboard catchall"
+[   558.586] (II) Using input driver 'libinput' for 'Compx 2.4G Wireless Receiver Keyboard'
+[   558.586] (II) systemd-logind: returning pre-existing fd for /dev/input/event3 13:67
+[   558.586] (**) Compx 2.4G Wireless Receiver Keyboard: always reports core events
+[   558.587] (**) Option "Device" "/dev/input/event3"
+[   558.587] (II) libinput: Compx 2.4G Wireless Receiver Keyboard: is a virtual subdevice
+[   558.587] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-2/1-2:1.1/0003:25A7:FA70.0002/input/input3/event3"
+[   558.587] (II) XINPUT: Adding extended input device "Compx 2.4G Wireless Receiver Keyboard" (type: KEYBOARD, id 11)
+[   558.587] (**) Logitech B330/M330/M3: Applying InputClass "libinput pointer catchall"
+[   558.587] (**) Logitech B330/M330/M3: Applying InputClass "libinput keyboard catchall"
+[   558.587] (II) Using input driver 'libinput' for 'Logitech B330/M330/M3'
+[   558.587] (II) systemd-logind: returning pre-existing fd for /dev/input/event4 13:68
+[   558.587] (**) Logitech B330/M330/M3: always reports core events
+[   558.587] (**) Option "Device" "/dev/input/event4"
+[   558.587] (II) libinput: Logitech B330/M330/M3: is a virtual subdevice
+[   558.587] (**) Option "config_info" "udev:/sys/devices/pci0000:00/0000:00:14.0/usb1/1-6/1-6:1.1/0003:046D:C52F.0004/0003:046D:4057.0005/input/input15/event4"
+[   558.587] (II) XINPUT: Adding extended input device "Logitech B330/M330/M3" (type: KEYBOARD, id 12)
+[  4054.881] (**) Option "fd" "27"
+[  4054.883] (II) event6  - Power Button: device removed
+[  4054.883] (**) Option "fd" "30"
+[  4054.883] (II) event0  - Compx 2.4G Wireless Receiver: device removed
+[  4054.883] (**) Option "fd" "31"
+[  4054.883] (II) event1  - Compx 2.4G Wireless Receiver Mouse: device removed
+[  4054.884] (**) Option "fd" "32"
+[  4054.884] (**) Option "fd" "33"
+[  4054.884] (**) Option "fd" "32"
+[  4054.884] (II) event3  - Compx 2.4G Wireless Receiver Keyboard: device removed
+[  4054.887] (**) Option "fd" "33"
+[  4054.887] (II) event4  - Logitech B330/M330/M3: device removed
+[  4054.959] (II) UnloadModule: "libinput"
+[  4054.959] (II) systemd-logind: not releasing fd for 13:68, still in use
+[  4054.959] (II) UnloadModule: "libinput"
+[  4054.959] (II) systemd-logind: not releasing fd for 13:67, still in use
+[  4054.959] (II) UnloadModule: "libinput"
+[  4054.959] (II) systemd-logind: releasing fd for 13:68
+[  4055.272] (II) UnloadModule: "libinput"
+[  4055.272] (II) systemd-logind: releasing fd for 13:67
+[  4055.284] (II) UnloadModule: "libinput"
+[  4055.284] (II) systemd-logind: releasing fd for 13:65
+[  4055.286] (II) UnloadModule: "libinput"
+[  4055.286] (II) systemd-logind: releasing fd for 13:64
+[  4055.290] (II) UnloadModule: "libinput"
+[  4055.291] (II) systemd-logind: releasing fd for 13:70
+[  4055.309] (WW) xf86CloseConsole: KDSETMODE failed: Input/output error
+[  4055.309] (WW) xf86CloseConsole: VT_GETMODE failed: Input/output error
+[  4055.309] (WW) xf86OpenConsole: VT_GETSTATE failed: Input/output error
+[  4055.358] (II) Server terminated successfully (0). Closing log file.
