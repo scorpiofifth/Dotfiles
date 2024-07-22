@@ -1,0 +1,6 @@
+# Temp files ignore
+*~
+*.swp
+
+# History files
+*history*

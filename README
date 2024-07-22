@@ -1,0 +1,12 @@
+# ScorpioFifth's dotfiles
+
+# How to use
+
+- install `stow`
+- clone the project in the home directory: `https://github.com/Scorpiofifth/Dotfiles.git`
+- `cd Dotfiles && stow --adopt .`
+
+> Note:
+> Please backup your own files before use it!
+
+ENJOY!
